@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Student {
     private String name;
@@ -31,9 +32,9 @@ public class Student {
     }
 
     public BigDecimal getAverageMarks(){
-        double sum = getTotalSumOfMarks();
-        double avg = sum / marksList.length;
-        return BigDecimal.valueOf(avg);
+        int sum = getTotalSumOfMarks();
+        // new BigDecimal(sum).divide(new BigDecimal(marksList.length), 3, RoundingMode.UP)
+        return BigDecimal.valueOf(sum).divide(BigDecimal.valueOf(marksList.length), 3, RoundingMode.UP);
     }
 
 }
