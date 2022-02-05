@@ -5,7 +5,8 @@ public class MainClassRunner {
 
         MyCharRunner.MyCharRunnerMethod();
 
-        TwoNumberCalculatorRunner.TwoNumberCalculatorRunnerMethod();
+        // TwoNumberCalculatorRunner.TwoNumberCalculatorRunnerMethod();
 
+        StudentRunner.StudentRunnerMethod();
     }
 }
