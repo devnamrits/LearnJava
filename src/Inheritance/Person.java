@@ -5,12 +5,19 @@ public class Person extends Object {
     private String email;
     private String phoneNumber;
 
-    public String getName() {
-        return name;
+    // Default constructor when super() is called implicitly
+    Person(){
+
     }
 
-    public void setName(String name) {
+    // When we call super(name) is invoked explicitly then this
+    // constructor is called
+    Person(String name){
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getEmail() {

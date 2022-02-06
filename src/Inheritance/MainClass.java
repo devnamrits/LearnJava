@@ -2,15 +2,13 @@ package Inheritance;
 
 public class MainClass {
     public static void main(String[] args){
-        Student student = new Student();
-        student.setName("Ram Kumar");
+        Student student = new Student("Ram Kumar");
         student.setEmail("ramkumar@gmail.com");
         student.setPhoneNumber("9999999999");
         student.setCollegeName("UIT RGPV");
         System.out.println(student.getName()+student.getCollegeName()+student.getPhoneNumber());
 
-        Person person = new Person();
-        person.setName("Ramesh");
+        Person person = new Person("Ramesh");
         person.setEmail("ramesh@gmail.com");
         person.setPhoneNumber("1234567890");
         String val = person.toString();
@@ -18,8 +16,7 @@ public class MainClass {
         System.out.println(val);
         System.out.println(person);
 
-        Employee employee = new Employee();
-        employee.setName("Mohan");
+        Employee employee = new Employee("Mohan");
         employee.setEmail("mohan@gmail.com");
         employee.setPhoneNumber("1234567890");
         employee.setEmployer("BFHL");
