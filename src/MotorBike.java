@@ -2,6 +2,14 @@ public class MotorBike {
     // state
     private int speed;
 
+    // constructors
+    MotorBike(){
+        this(5);
+    }
+
+    MotorBike(int speed){
+        this.speed = speed;
+    }
     // behaviour
     public void  setSpeed(int speed){
         if(speed > 0){
