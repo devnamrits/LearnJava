@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Person {
+public class Person extends Object {
     private String name;
     private String email;
     private String phoneNumber;

@@ -8,5 +8,11 @@ public class MainClass {
         student.setPhoneNumber("9999999999");
         student.setCollegeName("UIT RGPV");
         System.out.println(student.getName()+student.getCollegeName()+student.getPhoneNumber());
+
+        Person person = new Person();
+        String val = person.toString();
+
+        System.out.println(val);
+        System.out.println(person);
     }
 }
