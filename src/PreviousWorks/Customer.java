@@ -1,3 +1,7 @@
+package PreviousWorks;
+
+import PreviousWorks.Address;
+
 public class Customer {
     //state
     private String name;

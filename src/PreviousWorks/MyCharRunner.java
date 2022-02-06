@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class MyCharRunner {
     public  static  void  MyCharRunnerMethod(){
         MyChar char1 = new MyChar('A');

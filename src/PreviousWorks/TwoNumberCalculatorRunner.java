@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 import java.util.Scanner;
 
 public class TwoNumberCalculatorRunner {

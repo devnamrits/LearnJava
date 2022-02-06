@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class MyChar {
     private char ch;
 

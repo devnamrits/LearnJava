@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class MotorBike {
     // state
     private int speed;

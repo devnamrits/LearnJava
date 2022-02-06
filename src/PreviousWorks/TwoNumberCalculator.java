@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class TwoNumberCalculator {
     private  int num1;
     private  int num2;

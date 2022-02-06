@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class MainClassRunner {
     public static void main(String[] args) {
 
@@ -5,9 +7,9 @@ public class MainClassRunner {
 
         MyCharRunner.MyCharRunnerMethod();
 
-        // TwoNumberCalculatorRunner.TwoNumberCalculatorRunnerMethod();
+        // PreviousWorks.TwoNumberCalculatorRunner.TwoNumberCalculatorRunnerMethod();
 
-        // StudentRunner.StudentRunnerMethod();
+        // PreviousWorks.StudentRunner.StudentRunnerMethod();
 
         FanRunner.FanRunnerMethod();
 

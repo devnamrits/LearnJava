@@ -1,3 +1,5 @@
+package PreviousWorks;
+
 public class Fan {
     private String make;
     private double radius;
