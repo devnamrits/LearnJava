@@ -17,6 +17,11 @@ public class Fan {
 
     public void switchOff() {
         this.isOn = false;
+        setSpeed((byte)0);
+    }
+
+    public void setSpeed(byte speed){
+        this.speed = (byte)speed;
     }
 
     public void changeSpeed(int speed) {
