@@ -1,5 +1,5 @@
 public class MainClassRunner {
-    public  static void  main(String[] args){
+    public static void main(String[] args) {
 
         MotorBikeRunner.MotorBikeRunnerMethod();
 
@@ -7,6 +7,8 @@ public class MainClassRunner {
 
         // TwoNumberCalculatorRunner.TwoNumberCalculatorRunnerMethod();
 
-        StudentRunner.StudentRunnerMethod();
+        // StudentRunner.StudentRunnerMethod();
+
+        FanRunner.FanRunnerMethod();
     }
 }
