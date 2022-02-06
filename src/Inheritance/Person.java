@@ -28,4 +28,8 @@ public class Person extends Object {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public String toString() {
+        return name + ' ' + email + ' ' + phoneNumber;
+    }
 }
