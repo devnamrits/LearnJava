@@ -10,5 +10,7 @@ public class MainClassRunner {
         // StudentRunner.StudentRunnerMethod();
 
         FanRunner.FanRunnerMethod();
+
+        CustomerRunner.CustomerRunnerMethod();
     }
 }
