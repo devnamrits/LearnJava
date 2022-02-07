@@ -1,6 +1,6 @@
 package AbstractClass;
 
-//When a call extends an abstract class then either it have to be abstract too or write definition for all the abstract methods.
+//When a call extends an abstract class then either it has to be abstract too or write definition for all the abstract methods.
 public class Recipe2 extends AbstractRecipe{
     @Override
     public void getReady() {
