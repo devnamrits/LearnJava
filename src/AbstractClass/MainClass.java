@@ -7,5 +7,10 @@ public class MainClass {
 
         Recipe2 recipe2 = new Recipe2();
         recipe2.execute();
+
+        Animal[] animals = {new Cat(), new Dog()};
+        for(Animal animal:animals){
+            animal.bark();
+        }
     }
 }
