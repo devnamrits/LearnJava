@@ -14,6 +14,6 @@ public class Recipe2 extends AbstractRecipe{
 
     @Override
     public void cleanUp() {
-        System.out.println("Clean up the utensiils");
+        System.out.println("Clean up the utensils");
     }
 }
